@@ -1,0 +1,123 @@
+.woo-side-mini-cart {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    display: none;
+}
+.woo-side-mini-cart.woo-side-mini-cart--active {
+    display: block;
+}
+.woo-side-mini-cart__overlay {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+.woo-side-mini-cart__content {
+    position: absolute;
+    top: 0; right: 0;
+    width: 380px;
+    max-width: 90%;
+    height: 100%;
+    background: #fff;
+    box-shadow: -2px 0 6px rgba(0,0,0,0.2);
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.woo-side-mini-cart__content h2{
+    margin-top: 20px;
+}
+
+
+.woo-side-mini-cart__close {
+    float: right;
+    border: none;
+    background: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+.woo-side-mini-cart__items {
+    margin-top: 20px;
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+.woo-side-mini-cart__item-details{
+    position: relative;
+}
+.woo-side-mini-cart__item-thumb {
+    margin-right: 10px;
+    width: 22%;
+}
+.woo-side-mini-cart__item-details {
+    flex: 1;
+}
+.woo-side-mini-cart__item-remove {
+    color: #c00;
+    margin-top: 5px;
+    text-decoration: none;
+    position: absolute !important;
+    right: 7px;
+    top: 0;
+}
+.woo-side-mini-cart__item-qty {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.woocommerce-cart-form__quantity .woocommerce-button {
+    background: #f1f1f1;
+    border: 1px solid #ccc;
+    padding: 1px 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.woocommerce-cart-form__quantity .cart-qty-input {
+    width: 50px;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+
+/* Убираем стрелочки у input type="number" во всех браузерах */
+.cart-qty-input {
+    -moz-appearance: textfield; /* Убираем в Firefox */
+}
+
+
+.cart-qty-input::-webkit-outer-spin-button,
+.cart-qty-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+.cart-qty-input::-ms-clear,
+.cart-qty-input::-ms-reveal {
+    display: none;
+}
+
+
+.woo-side-mini-cart__actions {
+    margin-top: 20px;
+    text-align: center;
+}
+.woo-side-mini-cart__items-wrapper{
+    padding: 20px 10px 0px 30px;
+    width: 100%;
+}
+.wc-forward{
+    width: 100%;
+}
+
+.woo-side-mini-cart__items {
+    margin-top: 20px;
+    width: 100%;
+}
