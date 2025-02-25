@@ -1,0 +1,18 @@
+# Игнорируем всё
+/*
+
+# Но разрешаем wp-content и плагин
+!/wp-content/
+!/wp-content/plugins/
+!/wp-content/plugins/custom-checkout-plugin/
+
+# Игнорируем временные файлы
+wp-config.php
+error_log
+.htaccess
+.idea/
+.vscode/
+node_modules/
+.DS_Store
+*.log
+*.zip
