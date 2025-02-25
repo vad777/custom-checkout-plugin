@@ -6,7 +6,8 @@
 # Игнорируем все плагины, кроме нужного
 wp-content/plugins/*
 !wp-content/plugins/custom-checkout-plugin/
-!wp-content/plugins/custom-checkout-plugin/
+!wp-content/plugins/custom-like-mini-cart/
+!wp-content/plugins/wp-my-product-webspark-main/
 
 # Игнорируем темы, загрузки и языки
 wp-content/themes/
