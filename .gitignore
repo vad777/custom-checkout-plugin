@@ -1,12 +1,18 @@
-# Игнорируем всё
+# Игнорируем все файлы в корне, кроме wp-content
 /*
-
-# Но разрешаем wp-content и плагин
+!.gitignore
 !/wp-content/
-!/wp-content/plugins/
-!/wp-content/plugins/custom-checkout-plugin/
 
-# Игнорируем временные файлы
+# Игнорируем все плагины, кроме нужного
+wp-content/plugins/*
+!wp-content/plugins/custom-checkout-plugin/
+
+# Игнорируем темы, загрузки и языки
+wp-content/themes/
+wp-content/uploads/
+wp-content/languages/
+
+# Игнорируем временные файлы, кеши и конфиги
 wp-config.php
 error_log
 .htaccess
