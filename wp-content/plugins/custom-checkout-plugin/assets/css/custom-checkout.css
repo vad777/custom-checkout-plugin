@@ -1,0 +1,105 @@
+
+.custom-checkout-form {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 70%;
+}
+
+
+.custom-checkout-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.custom-checkout-form button {
+    background: #0071a1;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.custom-checkout-form button:hover {
+    background: #005177;
+}
+
+
+
+.woocommerce-checkout table.woocommerce-checkout-review-order-table .product-name {
+    width: 73%;
+}
+
+ .woocommerce-checkout .col2-set .form-row-wide:nth-child(8),
+ .woocommerce-checkout .col2-set .form-row-wide:nth-child(9){
+     clear: unset;
+ }
+
+ .woocommerce-checkout .col2-set .form-row:nth-child(8){
+     width: 44.4444444444%;
+     float: left!important;
+     margin-right: 11.1111111111%;
+     clear: both;
+ }
+ .woocommerce-checkout .col2-set .form-row:nth-child(9) {
+     width: 44.4444444444%;
+     float: right;
+     margin-right: 0;
+ }
+ .woocommerce-checkout .woocommerce-checkout-review-order-table tfoot {
+     border-top: 1px solid #bfb9b9;;
+
+ }
+ .woocommerce-checkout .woocommerce-checkout-review-order-table{
+     border-collapse: collapse;
+ }
+ .woocommerce-checkout table tbody td {
+     background-color: #ffffff;
+ }
+ .woocommerce-checkout table:not( .has-background ) th {
+     background-color: #ffffff;
+ }
+ .woocommerce-checkout table:not( .has-background ) tbody tr td {
+     background-color: #ffffff;
+ }
+ .woocommerce-checkout table:not( .has-background ) tbody tr:nth-child(2n) td {
+     background-color:  #ffffff;
+ }
+ .woocommerce-checkout .checkout-product-thumbnail{
+     float: left;
+     margin-right: 12px;
+ }
+
+
+
+/* ✅ Стили для таблицы подписчиков в админке */
+#subscribers-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#subscribers-table th, #subscribers-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+#subscribers-table th {
+    background-color: #0073aa;
+    color: white;
+    font-weight: bold;
+}
+
+#subscribers-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#subscribers-table tr:hover {
+    background-color: #f1f1f1;
+}
+

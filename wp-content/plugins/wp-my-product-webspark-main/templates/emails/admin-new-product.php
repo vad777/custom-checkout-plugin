@@ -1,6 +1,6 @@
 <?php
 if (!defined('ABSPATH')) exit;
-uidebug($product_link);
+
 ?>
 
 <h2><?php echo esc_html($email_heading); ?></h2>

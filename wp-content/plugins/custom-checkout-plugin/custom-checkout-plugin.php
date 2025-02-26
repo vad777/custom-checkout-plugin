@@ -14,11 +14,13 @@ if (!defined('ABSPATH')) {
 
 // Подключаем класс
 require_once plugin_dir_path(__FILE__) . 'includes/class-custom-checkout.php';
+require_once plugin_dir_path(__FILE__) . 'includes/class-woo-subscription-coupon.php';
 
 // Запускаем плагин
 function run_custom_checkout_plugin() {
     if (class_exists('WooCommerce')) {
         new Custom_Checkout_Plugin();
+        new Woo_Subscription_Coupon();
     } else {
         error_log('WooCommerce НЕ найден!');
     }
